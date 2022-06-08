@@ -32,7 +32,7 @@ header{
 .project2{
     height: 200px;
     width: 50%;
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("images/beaullo.png");
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("images/beaullo.png");
     background-repeat: no-repeat;
     margin: auto; 
     border-radius: 20px;
