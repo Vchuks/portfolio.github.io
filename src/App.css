@@ -1,0 +1,101 @@
+section{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(58, 35, 35);
+  color: rgb(238, 232, 232);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.dp{
+  width: 100%;
+  margin: auto;
+}
+#dp1{
+  width: 100%; 
+  height: 100vh;
+  background-color: rgb(70, 37, 37);
+}
+.dp img{
+  padding: 2em;
+  width: 100%;
+  border-radius: 40%;
+  box-sizing: border-box;
+}
+.about-me{
+  margin: auto;
+  padding:10rem 0 0 0;
+  width: 90%;
+  font-size: 20px;
+  text-align: justify;
+  box-sizing: border-box; 
+}
+
+#btndp, #btndp2{
+  background-color: rgb(68, 23, 23);
+  color: rgb(238, 232, 232);
+  border: 1px solid rgb(58, 35, 35);
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px 20px;
+  margin-right: 1em;
+}
+.navbar{
+  width: 100%;
+}
+.navbar button{
+  width: 90%;
+  margin: 5px auto;
+  background-color: rgb(68, 23, 23);
+  border: 1px solid rgb(68, 23, 23);
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px ;
+}
+.navbar button a, #btndp a, #btndp2 a{
+  color: rgb(238, 232, 232);
+  text-decoration: none;
+  
+}
+.project-container a{
+  color: rgb(47, 236, 88);
+  text-decoration: none;
+  
+}
+#form_contact{
+  width:70%;
+  margin:1rem auto;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+#form_contact a{
+  text-decoration: none;
+  color: #fff;
+}
+#form_contact h4{
+  text-align: center;
+  padding: 1rem;
+}
+
+.project-container{
+  width:70%;
+  margin: auto;
+  padding-top:3rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+.profile{
+  width: 90%;
+  margin: auto;
+  padding:1rem 0;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+footer{
+  text-align: center;
+  padding-top: 5px;
+}
