@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio.github.io/static/css/main.476a9f4e.css",
+    "main.js": "/portfolio.github.io/static/js/main.bf6f2e52.js",
+    "static/js/787.128fc6e9.chunk.js": "/portfolio.github.io/static/js/787.128fc6e9.chunk.js",
+    "static/media/fashion.png": "/portfolio.github.io/static/media/fashion.e8732d81228f09ba3176.png",
+    "static/media/onyii.jpg": "/portfolio.github.io/static/media/onyii.841062ffde739f11f3c5.jpg",
+    "static/media/pace.png": "/portfolio.github.io/static/media/pace.a91b2573255fd132e9c4.png",
+    "static/media/beaullo.png": "/portfolio.github.io/static/media/beaullo.18b1334bad8d45a35d10.png",
+    "index.html": "/portfolio.github.io/index.html",
+    "main.476a9f4e.css.map": "/portfolio.github.io/static/css/main.476a9f4e.css.map",
+    "main.bf6f2e52.js.map": "/portfolio.github.io/static/js/main.bf6f2e52.js.map",
+    "787.128fc6e9.chunk.js.map": "/portfolio.github.io/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.476a9f4e.css",
+    "static/js/main.bf6f2e52.js"
+  ]
+}
