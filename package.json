@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Vchuks.github.io/portfolio.github.io",
-  "name": "portfolio.github.io",
+  "homepage": "http://Vchuks.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
