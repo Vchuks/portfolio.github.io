@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chikwumee Onyinye</title>
+</head>
+<body>
+    <header>
+        <h2>CHUKWUMEE ONYINYE . V</h2>
+        <h3>Frontend developer</h3>
+        <div class="pic-frame">
+            <img src="images/onyii.jpg" alt="picture">
+        </div>
+    </header>
+    <div class="container">
+        <div class="profile">
+        <h3>Objective</h3>
+        <p>Creating and designing minimal, innovative and intuitive visual interfaces 
+            that solve problems, contributes to the success and growth of a dynamic corporate 
+            organization which desires, supports and appreciates special skill.</p>
+
+        <h3>Personal Skills and Ability</h3>
+        <ul>
+            <li>HyperText Markup Language (HTML)</li>
+            <li>Cascading Style Sheet (CSS)</li>
+            <li>Javascript (JS)</li>
+            <li>Good Communication Skills</li>
+            <li>Excellent Human Relation Skills</li>
+        </ul>
+
+        <h3>Qualities</h3> 
+            <ul>
+                <li>Implement websites.</li>
+                <li>Assess UI and UX designs and also implement them.</li>
+                <li>Collaborate with team members to implement features.</li>
+            </ul> 
+    </div>
+
+    <h3>Projects</h3>
+    <div class="mySlides fade" style="margin:auto;">
+        <div class=" slideshow-customer">
+    <div class="project" >
+        
+    <a href="https://vchuks.github.io/pacepharmacare.github.io/"><h2>Click to view</h2></a>
+        
+    </div> 
+    </div>
+    </div>
+
+    <div class="mySlides fade" style="margin:auto;">
+    <div class=" slideshow-customer">
+    <div class="project2" >
+    <a href="https://vchuks.github.io/beaullo/"><h2>Click to view</h2></a>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <img src="images/zuri-logo-full.svg"/>
+        <a href="https://zuri.team"></a>
+    </div>
+
+    <div style="margin: auto;">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span>   
+      </div>
+    
+    </div>
+    <script>
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    </script>
+</body>
+</html>
